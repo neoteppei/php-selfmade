@@ -1,0 +1,47 @@
+body{
+    background-image: url('/images/diver.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+}
+
+
+.login{
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の背景色 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    left: 35%;
+}
+
+#password{
+    margin-left: 32px;
+}
+
+
+
+.login button{
+    position: relative;
+    left: 160px;
+    width: 10em;
+    height: 4em;
+}
+
+.login a{
+    position: relative;
+    left: 190px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}

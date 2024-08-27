@@ -1,0 +1,100 @@
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 50px;
+} 
+
+
+.top2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+    height: 50px;
+}
+
+#top p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sea{
+    text-align: center;
+}
+
+.sea h2{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+
+.kizai{
+    text-align: center;
+}
+
+.kizai h2{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+
+.kizai li{
+    font-weight: bold;
+}
+
+.dive{
+    text-align: center;
+}
+
+.dive h2{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+
+#canvas1 {
+    border: 1px solid black;
+    touch-action: none; 
+}
+
+#canvas2 {
+    border: 1px solid black;
+    touch-action: none; 
+}
+
+
+.sign{
+    text-align: center;
+}
+
+.sign P{
+    font-weight: bold;
+}
+
+.memo-photo{
+    text-align: center;
+}
+
+.memo p{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+textarea{
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.save{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.save button{
+    background-color: red;
+    width: 10em;
+    height: 5em;
+}
+
+
