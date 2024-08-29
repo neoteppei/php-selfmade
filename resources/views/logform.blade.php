@@ -36,7 +36,7 @@
         <div class="sea">
             <h2>天候/海況情報</h2>
             <div class="weather">
-                <select name="weather">
+                <select name="weather" style="width: 100px; height: 50px;">
                     <option value="">---天気---</option>
                     <option value="sunny">晴れ</option>
                     <option value="sunclo">晴れのち曇り</option>
@@ -45,68 +45,68 @@
                     <option value="rain">雨</option>
                     <option value="other">その他</option>
                 </select>
-                <label for="kion">気温</label> <input type="number" style="width: 30px;" name="temperature">度
+                <label for="kion">気温</label> <input type="number" style="width: 70px; height: 30px;" name="temperature" >度
             </div>
-            <label for="kaze">風向</label> <input type="text" style="width: 30px;" name="wind_direction">➨<input type="text" style="width: 30px;" name="wind_direction"><br>
-            <label for="kaze">波高</label> <input type="text" style="width: 30px;" name="wave_height">➨<input type="text" style="width: 30px;" name="wave_height">
+            <label for="kaze">風向</label> <input type="text" style="width: 70px; height: 30px; margin-top: 20px;"  name="wind_direction">➨<input type="text" style="width: 70px; height: 30px;" name="wind_direction"><br>
+            <label for="kaze">波高</label> <input type="text" style="width: 70px; height: 30px; margin-top: 20px;" name="wave_height">➨<input type="text" style="width: 70px; height: 30px;" name="wave_height">
             <label>ウネリ</label>
-            <input type="text"  name="swell"><br>
-            <label>潮汐</label> <label>干潮</label> <input type="time" id="appt" name="low_tide_time"> <label>満潮</label> <input type="time" id="appt" name="high_tide_time">
+            <input type="text"  name="swell" style="width: 100px; height: 30px;"><br>
+            <label>潮汐</label> <label>干潮</label> <input type="time" id="appt" name="low_tide_time" style="width: 100px; height:30px; margin-top:20px; "> <label>満潮</label> <input type="time" id="appt" name="high_tide_time" style="width: 100px; height:30px; margin-top:20px; ">
         </div>
 
 <div class="kizai">
     <h2>シリンダー/器材情報</h2>
     <li>シリンダー情報</li>
-    <label>容量</label> <input type="text" style="width: 40px;" name="cylinder_capacity">L
-    <input type="checkbox" id="cylinder_type_steel" name="cylinder_type[]" value="スチール">
+    <label>容量</label> <input type="text" style="width: 60px; height: 30px;" name="cylinder_capacity">L
+    <input type="checkbox" id="cylinder_type_steel" name="cylinder_type[]" style="width: 15px; height: 15px;" value="スチール">
     <label for="cylinder_type_steel">スチール</label>
-    <input type="checkbox" id="cylinder_type_aluminum" name="cylinder_type[]" value="アルミニウム">
+    <input type="checkbox" id="cylinder_type_aluminum" name="cylinder_type[]" style="width: 15px; height: 15px;" value="アルミニウム">
     <label for="cylinder_type_aluminum">アルミニウム</label>
-    <input type="checkbox" id="cylinder_type_nitrox" name="cylinder_type[]" value="Nitrox">
-    <label for="cylinder_type_nitrox">Nitrox</label> <input type="text" style="width: 40px;" name="nitrox_percentage">%<br>
+    <input type="checkbox" id="cylinder_type_nitrox" name="cylinder_type[]" style="width: 15px; height: 15px;" value="Nitrox">
+    <label for="cylinder_type_nitrox">Nitrox</label> <input type="text" style="width: 60px; height: 30px;" name="nitrox_percentage">%<br>
 
     <li>器材情報</li>
-    <label>生地厚</label> <input type="text" style="width: 40px;" name="fabric_thickness">mm
-    <input type="checkbox" id="equipment_type_fullsuit" name="equipment_type[]" value="フルスーツ">
+    <label>生地厚</label> <input type="text" style="width: 60px; height: 30px;" name="fabric_thickness">mm
+    <input type="checkbox" id="equipment_type_fullsuit" name="equipment_type[]"  style="width: 15px; height: 15px;" value="フルスーツ">
     <label for="equipment_type_fullsuit">フルスーツ</label>
-    <input type="checkbox" id="equipment_type_seagull" name="equipment_type[]" value="シーガル">
+    <input type="checkbox" id="equipment_type_seagull" name="equipment_type[]" style="width: 15px; height: 15px;" value="シーガル">
     <label for="equipment_type_seagull">シーガル</label>
-    <input type="checkbox" id="equipment_type_longjohn" name="equipment_type[]" value="ロングジョン/パンツ">
+    <input type="checkbox" id="equipment_type_longjohn" name="equipment_type[]" style="width: 15px; height: 15px;" value="ロングジョン/パンツ">
     <label for="equipment_type_longjohn">ロングジョン/パンツ</label>
-    <input type="checkbox" id="equipment_type_bolero" name="equipment_type[]" value="ボレロ/ジャケット">
+    <input type="checkbox" id="equipment_type_bolero" name="equipment_type[]" style="width: 15px; height: 15px;" value="ボレロ/ジャケット">
     <label for="equipment_type_bolero">ボレロ/ジャケット</label>
-    <input type="checkbox" id="equipment_type_drysuit" name="equipment_type[]" value="ドライスーツ">
+    <input type="checkbox" id="equipment_type_drysuit" name="equipment_type[]" style="width: 15px; height: 15px;" value="ドライスーツ">
     <label for="equipment_type_drysuit">ドライスーツ</label>
-    <input type="checkbox" id="equipment_type_hood" name="equipment_type[]" value="フード">
+    <input type="checkbox" id="equipment_type_hood" name="equipment_type[]" style="width: 15px; height: 15px;" value="フード">
     <label for="equipment_type_hood">フード</label><br>
-    <input type="checkbox" id="equipment_type_gloves" name="equipment_type[]" value="グローブ">
+    <input type="checkbox" id="equipment_type_gloves" name="equipment_type[]" style="width: 15px; height: 15px;" value="グローブ">
     <label for="equipment_type_gloves">グローブ</label>
-    <input type="checkbox" id="equipment_type_other" name="equipment_type[]" value="その他">
-    <label for="equipment_type_other">その他</label> <input type="text" style="width: 100px;" name="other_equipment"><br>
+    <input type="checkbox" id="equipment_type_other" name="equipment_type[]" style="width: 15px; height: 15px;" value="その他">
+    <label for="equipment_type_other">その他</label> <input type="text" style="width: 100px; height: 30px" name="other_equipment"><br>
 
-    <input type="checkbox" id="accessory_weight" name="accessory[]" value="ウエイト">
-    <label for="accessory_weight">ウエイト</label> <input type="text" style="width: 50px;" name="weight_kg">kg
-    <input type="checkbox" id="accessory_ankle" name="accessory[]" value="アンクル">
+    <input type="checkbox" id="accessory_weight" name="accessory[]" style="width: 15px; height: 15px;" value="ウエイト">
+    <label for="accessory_weight">ウエイト</label> <input type="text" style="width: 70px; height: 30px" name="weight_kg">kg
+    <input type="checkbox" id="accessory_ankle" name="accessory[]" style="width: 15px; height: 15px;" value="アンクル">
     <label for="accessory_ankle">アンクルウエイト</label><br>
 
     <li>アクセサリー</li>
     <input type="checkbox" id="accessory_photography" name="accessory[]" value="撮影機材">
-    <label for="accessory_photography">撮影機材</label> <input type="text" style="width: 200px;" name="photography_equipment"><br>
+    <label for="accessory_photography">撮影機材</label> <input type="text" style="width: 200px; height: 30px;" name="photography_equipment"><br>
     <input type="checkbox" id="accessory_light" name="accessory[]" value="水中ライト">
     <label for="accessory_light">水中ライト</label>
     <input type="checkbox" id="accessory_float" name="accessory[]" value="フロート">
     <label for="accessory_float">フロート</label>
     <input type="checkbox" id="accessory_other" name="accessory[]" value="その他">
-    <label for="accessory_other">その他</label> <input type="text" style="width: 150px;" name="other_accessories">
+    <label for="accessory_other">その他</label> <input type="text" style="width: 150px; height: 30px; margin-top:20px;" name="other_accessories">
 </div>
 
         <div class="dive">
             <h2>ダイビング情報</h2>
-            <label>エントリー</label> <input type="time" name="entry_time"> <label>エキジット</label> <input type="time" name="exit_time">
-            <label>潜水時間</label> <input type="text" style="width: 50px;" name="dive_duration">分<br>
-            <label>最大水深</label> <input type="text" style="width: 50px;" name="max_depth">m <label>平均水深</label> <input type="text" style="width: 50px;" name="avg_depth">m<br>
-            <label>水温</label> <input type="text" style="width: 50px;" name="water_temp">度 <label>透明度</label> <input type="text" style="width: 50px;" name="visibility">m<br>
-            <label>開始残圧</label> <input type="text" style="width: 50px;" name="start_pressure">bar <label>終了残圧</label> <input type="text" style="width: 50px;" name="end_pressure">bar
+            <label>エントリー</label> <input type="time" name="entry_time" style="width: 100px; height:30px;"> <label>エキジット</label> <input type="time" name="exit_time" style="width: 100px; height:30px;">
+            <label>潜水時間</label> <input type="text" style="width: 50px; height: 30px" name="dive_duration">分<br>
+            <label>最大水深</label> <input type="text" style="width: 60px; height: 30px; margin-top: 20px;" name="max_depth">m <label>平均水深</label> <input type="text" style="width: 60px; height: 30px; margin-top: 20px" name="avg_depth">m<br>
+            <label>水温</label> <input type="text" style="width: 60px; height: 30px; margin-top: 20px;" name="water_temp">度 <label>透明度</label> <input type="text" style="width: 60px; height:30px; margin-top:20px;" name="visibility">m<br>
+            <label>開始残圧</label> <input type="text" style="width: 60px; height: 30px; margin-top: 20px;" name="start_pressure">bar <label>終了残圧</label> <input type="text" style="width: 60px; height: 30px; margin-top: 20px;" name="end_pressure">bar
         </div>
 
         <div class="sign">
